@@ -1,4 +1,3 @@
-
 import pyglet
 
 pyglet.options["shadow_window"] = False # no need for shadow window

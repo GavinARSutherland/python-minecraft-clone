@@ -32,7 +32,7 @@ class Save:
 
 		self.world.chunks[chunk_position] = chunk.Chunk(self.world, chunk_position)
 
-		for x in range(chunk.CHUNK_WIDTH):
+		for x in range(-10, 10):
 			for y in range(chunk.CHUNK_HEIGHT):
 				for z in range(chunk.CHUNK_LENGTH):
 					self.world.chunks[chunk_position].blocks[x][y][z] = chunk_blocks[
@@ -83,8 +83,8 @@ class Save:
 		# 	for y in range(-4, 4):
 		# 		self.load_chunk((x, 0, y))
 
-		for x in range(-1, 1):
-			for y in range(-1, 1):
+		for x in range(-5, 5):
+			for y in range(-5, 5):
 				self.load_chunk((x, 0, y))
 	
 	def save(self):

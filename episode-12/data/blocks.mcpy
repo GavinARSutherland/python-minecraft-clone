@@ -2,7 +2,7 @@
 # https://www.minecraftforum.net/forums/minecraft-java-edition/discussion/114963-all-item-block-ids-in-one-place
 # (with some slight modifications)
 
-1:  name "Stone", texture.all stone
+1:  name "Stone", texture.all dwayne
 2:  name "Grass", texture.top grass, texture.bottom dirt, texture.sides grass_side
 3:  name "Dirt", texture.all dirt
 4:  name "Cobblestone", texture.all cobblestone

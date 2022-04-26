@@ -4,6 +4,7 @@ import matrix
 
 WALKING_SPEED = 4.317
 SPRINTING_SPEED = 7 # faster than in Minecraft, feels better
+FLYING_SPRINTING_SPEED = 15
 
 class Player(entity.Entity):
 	def __init__(self, world, shader, width, height):

@@ -47,6 +47,11 @@ class Window(pyglet.window.Window):
                 # misc stuff
 
                 self.holding = 44 # 5
+
+                # music stuff
+
+                sweden = pyglet.resource.media("music/sweden.mp3", streaming = False)
+                sweden.play()
         
         def update(self, delta_time):
                 # print(f"FPS: {1.0 / delta_time}")
@@ -197,6 +202,8 @@ class Window(pyglet.window.Window):
                 elif key == pyglet.window.key.SPACE : self.player.input[1] -= 1
                 elif key == pyglet.window.key.LSHIFT: self.player.input[1] += 1
                 elif key == pyglet.window.key.LCTRL : self.player.target_speed = player.WALKING_SPEED
+
+        #def pause_music(self):
 
 class Game:
         def __init__(self):

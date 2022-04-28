@@ -13,7 +13,7 @@ import models
 
 class World:
 	def __init__(self):
-		self.texture_manager = texture_manager.Texture_manager(32, 32, 256)
+		self.texture_manager = texture_manager.Texture_manager(128, 128, 256)
 		self.block_types = [None]
 
 		# parse block type data file

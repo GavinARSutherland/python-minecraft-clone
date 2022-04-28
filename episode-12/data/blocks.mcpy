@@ -19,7 +19,7 @@
 15: name "Iron Ore", texture.all iron_ore
 16: name "Coal Ore", texture.all coal_ore
 17: name "Log", texture.y oak_log_top, texture.sides oak_log
-18: name "Leaves", model models.leaves, texture.all green_terracotta
+18: name "Leaves", model models.leaves, texture.all oak_leaves
 19: name "Sponge", texture.all sponge
 20: name "Glass", model models.glass, texture.all glass
 21: name "Red Wool", texture.all red_wool
@@ -85,7 +85,7 @@
 # ditto as for mob spawners (52)
 79: name "Ice", model models.tinted_glass, texture.all ice
 80: name "Snow Block", texture.all snow
-81: name "Cactus", model models.cactus, texture.all cactus
+81: name "Cactus", model models.cactus, texture.y cactus_top, texture.sides cactus_side
 82: name "Clay", texture.all clay
 83: name "Sugar Cane", model models.plant, texture.all unknown
 84: name "Jukebox", texture.all jukebox_side, texture.top jukebox_top

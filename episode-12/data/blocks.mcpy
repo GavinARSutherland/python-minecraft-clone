@@ -19,7 +19,7 @@
 15: name "Iron Ore", texture.all iron_ore
 16: name "Coal Ore", texture.all coal_ore
 17: name "Log", texture.y oak_log_top, texture.sides oak_log
-18: name "Leaves", model models.leaves, texture.all oak_leaves
+18: name "Leaves", model models.leaves, texture.all leaves
 19: name "Sponge", texture.all sponge
 20: name "Glass", model models.glass, texture.all glass
 21: name "Red Wool", texture.all red_wool
@@ -27,16 +27,16 @@
 23: name "Yellow Wool", texture.all yellow_wool
 24: name "Lime Wool", texture.all lime_wool
 25: name "Green Wool", texture.all green_wool
-26: name "Aqua Wool", texture.all unknown
+26: name "Aqua Wool", texture.all aqua_wool
 27: name "Cyan Wool", texture.all cyan_wool
 28: name "Blue Wool", texture.all blue_wool
 29: name "Purple Wool", texture.all purple_wool
-30: name "Indigo Wool", texture.all unknown
-31: name "Violet Wool", texture.all unknown
+30: name "Brown Wool", texture.all brown_wool
+31: name "Light-gray Wool", texture.all light_gray_wool
 32: name "Magenta Wool", texture.all magenta_wool
 33: name "Pink Wool", texture.all pink_wool
 34: name "Black Wool", texture.all black_wool
-35: name "Grey Wool", texture.all unknown
+35: name "Grey Wool", texture.all grey_wool
 36: name "White Wool", texture.all white_wool
 37: name "Yellow Flower", model models.plant, texture.all dandelion
 38: name "Red Rose", model models.plant, texture.all rose_bush
@@ -51,20 +51,20 @@
 47: name "Bookshelf", texture.y oak_planks, texture.sides bookshelf
 48: name "Mossy Cobblestone", texture.all mossy_cobblestone
 49: name "Obsidian", texture.all obsidian
-50: name "Torch", model models.torch, texture.top fire_0, texture.bottom torch, texture.sides torch
+50: name "Torch", model models.torch, texture.top torch_top, texture.bottom torch, texture.sides torch
 51: name "Fire", model models.fire, texture.all fire_0
 # I know, the model name isn't great, but it's got the same graphical properties
-52: name "Mob Spawner", model models.leaves, texture.all unknown
+52: name "Mob Spawner", model models.leaves, texture.all iron_bars
 53: name "Wooden Stairs", model models.stairs, texture.all oak_planks
-54: name "Chest", texture.y unknown, texture.sides unknown, texture.front unknown
+54: name "Chest", texture.y chest_top, texture.sides chest_side, texture.front chest_front
 55: name "Redstone Wire", model models.flat, texture.all redstone_dust_line0
 56: name "Diamond Ore", texture.all diamond_ore
 57: name "Diamond Block", texture.all diamond_block
-58: name "Crafting Table", texture.all crafting_table
+58: name "Crafting Table", texture.all crafting_table_side, texture.front crafting_table_front, texture.top crafting_table_top
 59: name "Crops", model models.crop, texture.all wheat_stage7
 60: name "Soil", model models.soil, texture.all dirt, texture.top farmland
-61: name "Furnace", texture.top furnace2, texture.bottom furnace_side, texture.sides furnace_side
-62: name "Lit Furnace", texture.top furnace2_lit, texute.bottom furnace_side texture.sides furnace_side
+61: name "Furnace", texture.top furnace_top, texute.bottom furnace_side texture.sides furnace_side, texture.front furnace_front
+62: name "Lit Furnace", texture.top furnace_top, texute.bottom furnace_side texture.sides furnace_side, texture.front furnace_front
 63: name "Sign Post", model models.sign_post, texture.all oak_planks
 64: name "Wooden Door", model models.door, texture.all oak_planks
 65: name "Ladder", model models.ladder, texture.all unknown

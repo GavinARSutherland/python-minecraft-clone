@@ -50,8 +50,11 @@ class Window(pyglet.window.Window):
 
                 # music stuff
 
-                sweden = pyglet.resource.media("music/sweden.mp3", streaming = False)
-                sweden.play()
+                self.media_player = pyglet.media.Player()
+                sweden = pyglet.media.load("music/sweden.mp3")
+                self.media_player.queue(sweden)
+                self.media_player.play()
+                self.playing_music = True
         
         def update(self, delta_time):
                 # print(f"FPS: {1.0 / delta_time}")
@@ -153,6 +156,9 @@ class Window(pyglet.window.Window):
                 elif key == pyglet.window.key.O:
                         self.world.save.save()
 
+                elif key == pyglet.window.key.P:
+                        self.play_pause_music()
+
                 elif key == pyglet.window.key.R:
                         # how large is the world?
 
@@ -203,7 +209,13 @@ class Window(pyglet.window.Window):
                 elif key == pyglet.window.key.LSHIFT: self.player.input[1] += 1
                 elif key == pyglet.window.key.LCTRL : self.player.target_speed = player.WALKING_SPEED
 
-        #def pause_music(self):
+        def play_pause_music(self):
+                if self.playing_music:
+                        self.media_player.pause()
+                        self.playing_music = False
+                else:
+                        self.media_player.play()
+                        self.playing_music = True
 
 class Game:
         def __init__(self):

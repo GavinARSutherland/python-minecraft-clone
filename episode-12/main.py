@@ -1,4 +1,3 @@
-
 import math
 import ctypes
 import random
@@ -22,7 +21,11 @@ import world
 import hit
 
 class Window(pyglet.window.Window):
+        '''Game window. This is where everything is initialized. '''
         def __init__(self, **args):
+                '''Constructor'''
+                
+                # inherit attributes from window.Window
                 super().__init__(**args)
 
                 # create world

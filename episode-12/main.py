@@ -54,7 +54,7 @@ class Window(pyglet.window.Window):
                 # music stuff
 
                 self.media_player = pyglet.media.Player()
-                sweden = pyglet.media.load("music/sweden.mp3")
+                sweden = pyglet.media.load("audio/music/sweden.mp3")
                 self.media_player.queue(sweden)
                 self.media_player.play()
                 self.playing_music = True

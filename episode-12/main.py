@@ -20,6 +20,8 @@ import world
 
 import hit
 
+import audio_manager
+
 class Window(pyglet.window.Window):
         '''Game window. This is where everything is initialized. '''
         def __init__(self, **args):
@@ -52,6 +54,8 @@ class Window(pyglet.window.Window):
                 self.holding = 44 # 5
 
                 # music stuff
+
+                self.audio_manager = audio_manager.Audio_Manager()                
 
                 self.media_player = pyglet.media.Player()
                 sweden = pyglet.media.load("audio/music/sweden.mp3")
@@ -106,9 +110,14 @@ class Window(pyglet.window.Window):
                 # handle breaking/placing blocks
 
                 def hit_callback(current_block, next_block):
-                        if button == pyglet.window.mouse.RIGHT: self.world.try_set_block(current_block, self.holding, self.player.collider), print(self.world.block_types[self.holding].name)
+                        if button == pyglet.window.mouse.RIGHT:
+                                self.world.try_set_block(current_block, self.holding, self.player.collider), print(self.world.block_types[self.holding].name)
+                                self.audio_manager.play_sound('place_block')
                                 
-                        elif button == pyglet.window.mouse.LEFT: self.world.set_block(next_block, 0)
+                        elif button == pyglet.window.mouse.LEFT:
+                                self.world.set_block(next_block, 0)
+                                self.audio_manager.play_sound('break_block')
+                                
                         elif button == pyglet.window.mouse.MIDDLE: self.holding = self.world.get_block_number(next_block)
 
                 x, y, z = self.player.position

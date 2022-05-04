@@ -39,7 +39,7 @@
 35: name "Grey Wool", texture.all grey_wool
 36: name "White Wool", texture.all white_wool
 37: name "Yellow Flower", model models.plant, texture.all dandelion
-38: name "Red Rose", model models.plant, texture.all rose_bush
+38: name "Rose Bush", model models.plant, texture.all rose_bush
 39: name "Brown Mushroom", model models.plant, texture.all brown_mushroom
 40: name "Red Mushroom", model models.plant, texture.all red_mushroom
 41: name "Gold Block", texture.all gold_block

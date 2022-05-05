@@ -39,7 +39,7 @@
 35: name "Grey Wool", texture.all grey_wool
 36: name "White Wool", texture.all white_wool
 37: name "Yellow Flower", model models.plant, texture.all dandelion
-38: name "Rose Bush", model models.plant, texture.all rose_bush
+38: name "Fern", model models.plant, texture.all fern
 39: name "Brown Mushroom", model models.plant, texture.all brown_mushroom
 40: name "Red Mushroom", model models.plant, texture.all red_mushroom
 41: name "Gold Block", texture.all gold_block
@@ -67,7 +67,7 @@
 62: name "Lit Furnace", texture.top furnace_top, texute.bottom furnace_side texture.sides furnace_side, texture.front furnace_front
 63: name "Sign Post", model models.sign_post, texture.all oak_planks
 64: name "Wooden Door", model models.door, texture.all oak_planks
-65: name "Ladder", model models.ladder, texture.all unknown
+65: name "Ladder", model models.ladder, texture.all ladder
 66: name "Rails", model models.flat, texture.all rail
 67: name "Cobblestone Stairs", model models.stairs, texture.all cobblestone
 68: name "Sign", model models.sign, texture.all oak_planks
@@ -87,5 +87,7 @@
 80: name "Snow Block", texture.all snow
 81: name "Cactus", model models.cactus, texture.y cactus_top, texture.sides cactus_side
 82: name "Clay", texture.all clay
-83: name "Sugar Cane", model models.plant, texture.all unknown
+83: name "Sugar Cane", model models.plant, texture.all sugar_cane
 84: name "Jukebox", texture.all jukebox_side, texture.top jukebox_top
+85: name "Tall Grass", model models.plant, texture.all tall_grass
+86: name "Emerald Ore", texture.all emerald_ore

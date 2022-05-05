@@ -1,0 +1,332 @@
+{
+	"sounds": {
+		"stone": {
+			"break_sound": "stone_break.ogg",
+			"place_sound": "stone_place.ogg"
+		},
+		"grass": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"dirt": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"cobblestone": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"planks": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"sapling": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"bedrock": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"sand": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"gravel": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"gold ore": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"iron ore": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"coal ore": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"log": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"leaves": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"sponge": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"glass": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"red wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"orange wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"yellow wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"lime wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"green wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"aqua wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"cyan wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"blue wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"purple wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"brown wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"light-grey wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"magenta wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"pink wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"black wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"grey wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"white wool": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"yellow flower": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"fern": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"brown mushroom": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"red mushroom": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"gold block": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"iron block": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"double slab": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"slab": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"bricks": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"tnt": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"bookshelf": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"mossy cobblestone": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"obsidian": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"torch": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"fire": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"mob spawner": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"wooden stairs": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"chest": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"redstone wire": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"diamond ore": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"diamond block": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"crafting table": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"crops": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"soil": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"furnace": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"lit furnace": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"sign post": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"wooden door": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"ladder": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"rails": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"cobblestone stairs": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"sign": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"lever": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"stone pressure plate": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"iron door": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"wooden pressure plate": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"redstone ore": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"lit redstone ore": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"redstone torch": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"redstone torch (off)": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"stone button": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"snow": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"ice": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"snow block": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"cactus": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"clay": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"sugar cane": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"jukebox": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"tall grass": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+		"emerald ore": {
+			"break_sound": "grass_break.ogg",
+			"place_sound": "grass_place.ogg"
+		},
+	}
+}

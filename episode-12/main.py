@@ -51,7 +51,7 @@ class Window(pyglet.window.Window):
 
                 # misc stuff
 
-                self.holding = 44 # 5
+                self.holding = 85
 
                 # music stuff
 
@@ -115,6 +115,8 @@ class Window(pyglet.window.Window):
                                 self.audio_manager.play_sound('place_block')
                                 
                         elif button == pyglet.window.mouse.LEFT:
+                                broken_block = self.world.get_block_number(next_block)
+                                broken_block = self.world.block_types[broken_block].name.lower()
                                 self.world.set_block(next_block, 0)
                                 self.audio_manager.play_sound('break_block')
                                 
